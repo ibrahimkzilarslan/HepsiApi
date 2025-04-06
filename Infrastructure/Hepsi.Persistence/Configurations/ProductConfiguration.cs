@@ -32,7 +32,7 @@ namespace Hepsi.Persistence.Configurations
                 Id = 2,
                 Title = faker.Commerce.ProductName(),
                 Description = faker.Commerce.ProductDescription(),
-                BrandId = 3,
+                BrandId = 2,
                 Price = faker.Finance.Amount(10, 1000),
                 Discount = faker.Random.Decimal(0, 100),
                 CreatedDate = DateTime.Now,
